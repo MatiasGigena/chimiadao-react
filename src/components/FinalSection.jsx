@@ -27,6 +27,7 @@ const FinalSection = ({ isMobile }) => {
       style={{ y }}
       ref={container}
       className='text-white seccion1 flex flex-col  items-center justify-center bg-[#06050c] relative'
+      id='FinalSection'
     >
       <div className=' pt-[120px] lg:pt-[200px]  w-full max-w-[1800px] bg-[#06050c]'>
         <div className='border-b mx-[10px] sm:mx-[11%] lg:mt-[100px] border-[1px_solid_#888686] lg:pb-[100px] p-5 lg:mx-[200px] relative'>
@@ -50,9 +51,12 @@ const FinalSection = ({ isMobile }) => {
             className='absolute posicionamiento'
           >
             <button className='w-[100px] h-[100px] lg:w-[180px] lg:h-[180px] bg-[#ffa339] rounded-[50%] absolute flex items-center justify-center '>
-              <p className='m-0 text-sm lg:text-xl text-black relative font-bold z-10'>
+              <a
+                href='mailto:chimiadao@protonmail.com'
+                className='m-0 text-sm lg:text-xl text-black relative font-bold z-10'
+              >
                 Get in touch
-              </p>
+              </a>
             </button>
           </motion.div>
           <motion.svg
@@ -71,7 +75,7 @@ const FinalSection = ({ isMobile }) => {
           </motion.svg>
         </div>
         <div className='flex flex-col lg:flex-row mx-[10px]  my-20 sm:mx-[11%] lg:gap-[20px] lg:m-[50px_200px_0_200px]'>
-          <p>matiasgigena@outlook.es</p>
+          <p>chimiadao@protonmail.com </p>
         </div>
         <div className='flex justify-between mt-[200px] p-[20px]'>
           <span className='flex flex-col lg:flex-row gap-3 items-start justify-center'>
@@ -79,9 +83,10 @@ const FinalSection = ({ isMobile }) => {
             <p>2024 © Edition</p>
           </span>
           <div className='flex flex-row gap-3 items-end lg:items-center lg:gap-5'>
-            <p>Gmail</p>
-            <p>Linkedin</p>
-            <p>Instagram</p>
+            <p>Follow us on X</p>
+            <a href='mailto:chimiadao@protonmail.com'>
+              Contact
+            </a>
           </div>
         </div>
       </div>

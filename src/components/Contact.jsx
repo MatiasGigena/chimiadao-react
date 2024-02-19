@@ -22,10 +22,12 @@ const Contact = ({ isMobile }) => {
     <motion.section
       style={{ y: sm }}
       ref={container}
-      id='Contact'
       className='seccion1 z-40 mt-10 lg:mt-0 px-[10px] sm:px-[11%] py-10 lg:py-32 lg:px-8 flex gap-10 relative items-center flex-col justify-center'
     >
-      <div className='card lg:card-side w-full lg:w-[80%] shadow-xl'>
+      <div
+        id='Resources'
+        className='card lg:card-side w-full lg:w-[80%] shadow-xl'
+      >
         <figure className='min-w-[300px]'>
           <img src='./images/image (5).webp' alt='Album' />
         </figure>

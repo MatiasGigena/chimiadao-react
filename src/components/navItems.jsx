@@ -62,27 +62,16 @@ const NavItems = () => {
       title: 'Services',
       href: '#Resources',
     },
-    {
-      title: 'Contact',
-      href: '#Contact',
-    },
   ];
   const socials = [
     {
-      name: 'Instagram',
-      link: '#Home',
+      name: 'Contact Us',
+      link: '#FinalSection',
     },
+
     {
-      name: 'Linkedin',
-      link: '#About',
-    },
-    {
-      name: 'Facebook',
-      link: '#Approach',
-    },
-    {
-      name: 'Twitter',
-      link: '#Resources',
+      name: 'Follow us on X',
+      link: 'https://twitter.com/ChimiaDAO',
     },
   ];
   return (
@@ -109,7 +98,7 @@ const NavItems = () => {
           return (
             <motion.a
               key={`f_${index}`}
-              className='w-1/2 text-black [text-decoration:_none]'
+              className='w-full mt-2 text-black [text-decoration:_none]'
               variants={slideIn}
               custom={index}
               animate='enter'

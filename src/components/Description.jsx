@@ -74,6 +74,7 @@ const Description = ({ isMobile }) => {
   return (
     <div
       ref={container}
+      id='About'
       className=' seccion1 flex  bg-[#06050c] items-center px-[10px] sm:px-5 pt-[148px] lg:p-[128px_128px_64px_128px] justify-start lg:justify-evenly  text-white'
     >
       <motion.div

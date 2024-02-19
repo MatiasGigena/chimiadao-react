@@ -38,7 +38,7 @@ const AboutUs = ({ isMobile }) => {
   );
   return (
     <section
-      id='About'
+      id='Approach'
       className='seccion1 lg:h-[60vh] px-[10px] mt-24 lg:mt-0 sm:px-[10%] lg:p-8 gap-5 lg:gap-20  w-full flex flex-col lg:flex-row items-center justify-center '
     >
       <motion.article
