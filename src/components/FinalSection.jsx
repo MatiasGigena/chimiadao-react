@@ -4,6 +4,7 @@ import {
   motion,
   useTransform,
 } from 'framer-motion';
+
 const FinalSection = ({ isMobile }) => {
   const container = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -49,7 +50,7 @@ const FinalSection = ({ isMobile }) => {
             className='absolute posicionamiento'
           >
             <button className='w-[100px] h-[100px] lg:w-[180px] lg:h-[180px] bg-[#ffa339] rounded-[50%] absolute flex items-center justify-center '>
-              <p className='m-0 text-sm lg:text-lg text-black relative font-bold z-10'>
+              <p className='m-0 text-sm lg:text-xl text-black relative font-bold z-10'>
                 Get in touch
               </p>
             </button>
@@ -71,7 +72,6 @@ const FinalSection = ({ isMobile }) => {
         </div>
         <div className='flex flex-col lg:flex-row mx-[10px]  my-20 sm:mx-[11%] lg:gap-[20px] lg:m-[50px_200px_0_200px]'>
           <p>matiasgigena@outlook.es</p>
-          <p>+31 6 27 84 74 30</p>
         </div>
         <div className='flex justify-between mt-[200px] p-[20px]'>
           <span className='flex flex-col lg:flex-row gap-3 items-start justify-center'>
@@ -79,7 +79,7 @@ const FinalSection = ({ isMobile }) => {
             <p>2024 © Edition</p>
           </span>
           <div className='flex flex-row gap-3 items-end lg:items-center lg:gap-5'>
-            <p>Dribbble</p>
+            <p>Gmail</p>
             <p>Linkedin</p>
             <p>Instagram</p>
           </div>

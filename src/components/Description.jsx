@@ -31,7 +31,7 @@ const Description = ({ isMobile }) => {
       stagger: 0.1,
       scrollTrigger: {
         trigger: container.current,
-        start: () => `top+=${window.innerHeight - 1500}`,
+        start: () => `top+=${window.innerHeight - 1250}`,
         end: `+=${window.innerHeight / 1.5}`,
         scrub: true,
       },
@@ -74,7 +74,7 @@ const Description = ({ isMobile }) => {
   return (
     <div
       ref={container}
-      className=' seccion1 flex  bg-[#06050c] items-center px-[10px] sm:px-5 pt-16 pb-4 lg:p-[128px_128px_64px_128px] justify-start lg:justify-evenly  text-white'
+      className=' seccion1 flex  bg-[#06050c] items-center px-[10px] sm:px-5 pt-[148px] lg:p-[128px_128px_64px_128px] justify-start lg:justify-evenly  text-white'
     >
       <motion.div
         ref={appear}

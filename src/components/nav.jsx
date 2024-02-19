@@ -67,11 +67,13 @@ const Nav = () => {
                 className='h-10 w-10 sm:h-12 sm:w-12 ml-[10px] sm:ml-[11%]'
               />
               <button
-                className={`text-white font-normal  text-2xl  lg:text-3xl `}
+                className={`text-white font-normal poppins-regular  text-2xl  lg:text-3xl `}
                 onClick={handleClick}
               >
                 Chimia
-                <span className={`uppercase font-medium `}>
+                <span
+                  className={`uppercase   poppins-medium font-medium `}
+                >
                   dao
                 </span>
               </button>
