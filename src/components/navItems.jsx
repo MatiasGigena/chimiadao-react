@@ -15,7 +15,7 @@ const perspective = {
     transition: {
       delay: 0.5 + i * 0.1,
       duration: 0.35,
-      opacity: { duration: 0.35 },
+      opacity: { duration: 2 },
       ease: [0.235, 0.61, 0.355, 0.1],
     },
   }),
@@ -105,6 +105,7 @@ const NavItems = () => {
               exit='exit'
               initial='initial'
               href={social.link}
+              target='_blank'
             >
               {social.name}
             </motion.a>

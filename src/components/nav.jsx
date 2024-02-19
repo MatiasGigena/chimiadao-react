@@ -106,9 +106,12 @@ const Nav = () => {
             alt=''
             className='min-h-[100vh] w-full object-cover absolute animacionCirculo'
           />
-          <p className=' rounded-full bg-white animacionCirculo text-[#000] border px-10 py-3  text-xl lg:text-2xl absolute top-[57%] cursor-pointer'>
+          <a
+            href='#About'
+            className=' rounded-full bg-white animacionCirculo text-[#000] border px-10 py-3  text-xl lg:text-2xl absolute top-[57%] cursor-pointer'
+          >
             Explore{' '}
-          </p>
+          </a>
         </div>
         {section !== 0 ? (
           <div className='fixed transition opacity-1 duration-300 top-[33px] right-[10px] sm:top-[40px] sm:right-[11%]'>
